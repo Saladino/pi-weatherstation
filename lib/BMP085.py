@@ -34,7 +34,7 @@ class BMP085 :
   __BMP085_TEMPDATA          = 0xF6
   __BMP085_PRESSUREDATA      = 0xF6
   __BMP085_READTEMPCMD       = 0x2E
-  __BMP085_READPRESSURECMD   = 0x34
+  __BMP085_READPRESSURECMD   = 0x44
 
   # Private Fields
   _cal_AC1 = 0
